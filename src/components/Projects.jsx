@@ -1,4 +1,3 @@
-// src/components/Projects.jsx
 import React, { useState } from 'react';
 
 const Projects = () => {
@@ -32,7 +31,7 @@ const Projects = () => {
       link: 'https://github.com/Pratik26198/DotNet-Project',
     },
 
-    // add additional projects here after.
+    // I will add additional projects here after.
 
   ];
 

@@ -1,4 +1,3 @@
-// src/components/Skills.jsx
 import React from 'react';
 
 const Skills = () => {
@@ -7,7 +6,7 @@ const Skills = () => {
     { name: 'JavaScript', level: 85 },
     { name: 'React', level: 80 },
     { name: 'Bootstrap', level: 75 },
-    // Add more skills as needed.
+    // I will Add more skills here after as needed.
   ];
 
   return (

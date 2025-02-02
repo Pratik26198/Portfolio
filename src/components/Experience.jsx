@@ -1,4 +1,3 @@
-// src/components/Experience.jsx
 import React from 'react';
 
 const Experience = () => {
@@ -17,7 +16,7 @@ const Experience = () => {
             </p>
           </div>
         </div>
-        {/* Add additional experience cards if needed */}
+        {/* I will Add additional experience cards if needed */}
       </div>
     </section>
   );

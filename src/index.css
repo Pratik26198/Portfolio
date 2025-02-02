@@ -1,6 +1,3 @@
-/* src/index.css */
-
-/* --- CSS Variables for Colors & Layout --- */
 :root {
   --sidebar-width: 250px;
   --transition-speed: 0.3s;
@@ -74,7 +71,6 @@ html {
   color: var(--night-section-text);
 }
 
-/* Ensure Cards Inherit Colors in Night Mode */
 .app.night .card {
   background-color: var(--night-section-bg);
   color: var(--night-section-text);
@@ -172,7 +168,6 @@ html {
   padding-bottom: 0.5rem;
 }
 
-/* --- Fix for "About Me" Section Text --- */
 #about p {
   text-align: justify;
   line-height: 1.6;
@@ -193,7 +188,6 @@ html {
   align-items: center;
 }
 
-/* Adjust hero text color in day mode for better visibility */
 .app.day .hero {
   color: #333333;
   text-shadow: none;
@@ -201,7 +195,6 @@ html {
 
 .hero h1 {
   margin-bottom: 1rem;
-  /* In night mode, preserve a slight shadow for legibility */
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -210,7 +203,6 @@ html {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  /* In night mode, keep white text; in day mode, it will use #333333 from parent */
 }
 
 .hero .btn {
@@ -220,7 +212,6 @@ html {
 }
 
 /* --- Projects Section Adjustments --- */
-/* Modern, good-looking project cards */
 #projects .card {
   max-width: 350px;
   margin: 0 auto 1.5rem auto;
@@ -236,22 +227,19 @@ html {
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-/* Adjust project image to show the full image using object-fit: contain */
 #projects .card-img-top {
   width: 100%;
-  height: 200px;       /* Fixed height for consistency */
-  object-fit: contain; /* Ensure the full image is visible without cropping */
-  padding: 1rem;       /* Add padding to avoid edge-to-edge appearance */
-  background-color: #f8f9fa; /* Light background for letterboxing if needed */
+  height: 200px;       
+  object-fit: contain; 
+  padding: 1rem;       
+  background-color: #f8f9fa; 
 }
 
-/* --- Card and Button Adjustments --- */
 .card .btn {
   margin-top: 1rem;
   display: inline-block;
 }
 
-/* --- Footer --- */
 footer {
   padding: 1rem 0;
   text-align: center;

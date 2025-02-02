@@ -1,0 +1,26 @@
+# Node modules folder
+node_modules/
+
+# Vite build output
+dist/
+
+# Vite cache folder
+.vite/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
